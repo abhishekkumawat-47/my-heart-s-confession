@@ -62,17 +62,6 @@ const LoveLetterSection = () => {
             </motion.p>
           </div>
         </motion.div>
-
-        {/* Music toggle hint */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 1.2 }}
-          className="mt-8 text-sm text-muted-foreground"
-        >
-          🎵 Add your romantic music file to the project to play background music
-        </motion.p>
       </div>
     </section>
   );

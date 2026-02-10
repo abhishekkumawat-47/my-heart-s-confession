@@ -26,10 +26,10 @@ const GallerySection = () => {
         viewport={{ once: true }}
         className="font-display text-4xl md:text-5xl text-center text-foreground mb-16"
       >
-        Our Beautiful Moments 💖
+        Our Beautiful Moments in Future💖
       </motion.h2>
 
-      <div className="max-w-2xl mx-auto relative">
+      <div className="max-w-xl mx-auto relative">
         {/* Image slider */}
         <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
           <AnimatePresence mode="wait">
@@ -47,7 +47,6 @@ const GallerySection = () => {
 
           {/* Heart overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent" />
-          <div className="absolute top-4 right-4 text-3xl animate-heartbeat">❤️</div>
 
           {/* Navigation arrows */}
           <button

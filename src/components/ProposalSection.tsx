@@ -126,7 +126,18 @@ const ProposalSection = () => {
                   Yaaay! You made my day! 🎉
                 </h3>
                 <p className="font-body text-lg text-muted-foreground">
-                  I promise to make every moment special for you. Can't wait for our date! 💖✨
+                  I promise to make every moment special for you.
+                  <br/> 
+                  <a 
+                    href="https://wa.me/919432279870" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary py-2 font-semibold transition-colors underline decoration-2 underline-offset-4 inline-block"
+                  >
+                    Message me on WhatsApp
+                  </a> 
+                  <br /> when you're free, and let's plan our first date!
+                  Can't wait for our date! 💖✨
                 </p>
               </div>
             </motion.div>
