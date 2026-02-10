@@ -6,6 +6,7 @@ import gallery4 from "@/assets/gallery-4.jpg";
 
 const images = [
   { src: gallery1, caption: "Every moment with you feels like magic ✨" },
+  { src: gallery2, caption: "You light up my world like nobody else 🌹" },
   { src: gallery4, caption: "You have my heart, forever & always ❤️" },
 ];
 
