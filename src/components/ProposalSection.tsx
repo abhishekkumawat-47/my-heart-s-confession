@@ -129,7 +129,8 @@ const ProposalSection = () => {
                   I promise to make every moment special for you.
                   <br/> 
                   <a 
-                    href="https://wa.me/919432279870" 
+                    // https://wa.me/xxxxxxxx - replace xxxxxxx with your phone number in international format without + or dashes
+                    href="https://wa.me/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-primary py-2 font-semibold transition-colors underline decoration-2 underline-offset-4 inline-block"

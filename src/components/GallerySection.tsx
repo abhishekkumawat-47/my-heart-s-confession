@@ -2,13 +2,10 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 
 const images = [
   { src: gallery1, caption: "Every moment with you feels like magic ✨" },
-  { src: gallery2, caption: "You light up my world like nobody else 🌹" },
-  { src: gallery3, caption: "Our love story is my favourite 💕" },
   { src: gallery4, caption: "You have my heart, forever & always ❤️" },
 ];
 
